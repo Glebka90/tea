@@ -1,0 +1,259 @@
+.body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+    color: #151618;
+    line-height: normal;
+}
+
+.container__title {
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+    padding: 30px 0 65px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 0 65px;
+}
+
+.nav-list__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #151618;
+}
+
+.user-panel {
+    display: flex;
+    gap: 0 100px;
+}
+
+.user-panel-list__sail {
+    margin: 0 20px 0 0;
+}
+
+.promo {
+    height: 500px;
+    background-image: url(./__image/_image/background_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.promo__iner {
+    min-height: 500px;
+    color: #FFFFFF;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.promo__title {
+    max-width: 780px;
+    margin-bottom: 20px;
+    font-family: "Cormorant", serif;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.promo__signature {
+    max-width: 560px;
+    margin-bottom: 48px;
+    font-family: "Cormorant", serif;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.info {
+    margin: 150px 0;
+    text-align: center;
+}
+
+.info__quote {
+    width: 740px;
+    margin: 0 auto;
+    margin-bottom: 146px;
+    font-family: 'Cormorant';
+    font-style: italic;
+    position: relative;
+    z-index: 10;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    color: #151618;
+}
+
+.info__quote::before {
+    content: '';
+    width: 359px;
+    height: 61px;
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    z-index: -1;
+    background-color: #F7F2EA;
+    opacity: 0.5;
+
+}
+
+.tea-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tea-list__text {
+    margin-top: 10px;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.review {
+    min-height: 340px;
+    margin: 150px 0;
+    padding-top: 60px;
+    background-color: #F7F2EA;
+}
+
+.review-list {
+    display: flex;
+    gap: 0 26px;
+}
+
+.review-list__item {
+    width: 280px;
+}
+
+.review-list__text {
+    font-style: italic;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.review-list__name {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.blog {
+    margin: 150px 0;
+}
+
+.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 58px;
+}
+
+.blog-list__card {
+    width: 540px;
+    display: flex;
+    gap: 0 20px;
+
+}
+
+.blog-list__info {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.blog-list__title {
+    min-height: 86px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.blog-list__link {
+    margin-top: auto;
+}
+
+.blog-list__icon {
+    margin-left: 5px;
+}
+
+.blog__button {
+    width: 150px;
+    margin: 72px auto 0;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #151618;
+    background: #FFFFFF;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.blog__button:hover{
+    background-color: #F7F2EA;
+    transition: 0.3s;
+}
+
+.form-description__title {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-size: 40px;
+}
+
+.form {
+    min-height: 418px;
+    background-color: #F7F2EA;
+}
+
+.container_flex {
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+}
+
+.form-description {
+    min-width: 580px;
+    margin: 100px 0;
+
+}
+
+.form-description__title {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.form-description__text {
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.form-agreement {
+    min-width: 580px;
+}
