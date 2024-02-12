@@ -1,3 +1,17 @@
+.button {
+    padding: 12px 41px;
+    border: 1px solid #151618;
+    background: #FFFFFF;
+    font-size: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #F7F2EA;
+    transition: 0.3s;
+}
+
 .body {
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
@@ -104,7 +118,6 @@
     font-weight: 300;
     font-size: 40px;
     text-align: center;
-    color: #151618;
 }
 
 .info__quote::before {
@@ -208,17 +221,8 @@
 .blog__button {
     width: 150px;
     margin: 72px auto 0;
-    padding: 12px 0;
     display: flex;
     justify-content: center;
-    border: 1px solid #151618;
-    background: #FFFFFF;
-    font-size: 20px;
-    transition: 0.3s;
-}
-.blog__button:hover{
-    background-color: #F7F2EA;
-    transition: 0.3s;
 }
 
 .form-description__title {
@@ -256,4 +260,46 @@
 
 .form-agreement {
     min-width: 580px;
+}
+
+.form-email {
+    display: flex;
+    align-items: end;
+    gap: 0 25px;
+}
+
+.form-email__text {
+    width: 100%;
+    height: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: #F7F2EA;
+    outline: none;
+    border-bottom: 1px #B8B58B solid;
+}
+.form-sending{
+    min-height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.form-agreement {
+
+    margin-top: 15px;
+    display: flex;
+    gap: 0 10px;
+    align-items: start;
+    justify-content: flex-end;
+}
+
+.form-agreement__checkbox {
+    background: #FFFFFF;
+    border: 1px solid #151618;
+
+}
+
+.form-agreement__text {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
 }
