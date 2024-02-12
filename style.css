@@ -277,12 +277,14 @@
     outline: none;
     border-bottom: 1px #B8B58B solid;
 }
-.form-sending{
+
+.form-sending {
     min-height: 218px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
+
 .form-agreement {
 
     margin-top: 15px;
@@ -302,4 +304,33 @@
     font-weight: 300;
     font-size: 13px;
     line-height: 18px;
+}
+
+.prioritise {
+    margin: 150px 0;
+}
+
+.prioritise-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prioritise-list__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prioritise-list__title {
+    font-size: 30px;
+
+
+}
+
+.prioritise-list__text {
+    margin: 10px 0 40px 0;
+    font-weight: 600;
+    font-size: 20px;
+
 }
