@@ -7,6 +7,10 @@
     cursor: pointer;
 }
 
+a {
+    color: #151618;
+}
+
 .button:hover {
     background-color: #F7F2EA;
     transition: 0.3s;
@@ -256,6 +260,7 @@
 .form-description__text {
     font-size: 20px;
     line-height: 150%;
+    font-style: normal;
 }
 
 .form-agreement {
@@ -294,16 +299,17 @@
     justify-content: flex-end;
 }
 
-.form-agreement__checkbox {
-    background: #FFFFFF;
-    border: 1px solid #151618;
 
+
+.form-agreement__checkbox {
+    margin-top: 3px;
 }
 
 .form-agreement__text {
     font-weight: 300;
     font-size: 13px;
     line-height: 18px;
+    font-style: normal;
 }
 
 .prioritise {
@@ -332,5 +338,100 @@
     margin: 10px 0 40px 0;
     font-weight: 600;
     font-size: 20px;
+    font-style: normal;
+}
 
+.footer {
+    padding-top: 100px;
+    background-color: #F7F2EA;
+}
+
+.footer__title {
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.footer-info {
+    width: 585px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info__quote-block {
+    padding-top: 80px;
+}
+
+.footer-info__autor {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.footer-info__quote-block {
+    width: 255px;
+}
+
+.footer-info__contact {
+    width: 275px;
+}
+
+.footer__contacts {
+    margin: 20px 0 40px 0;
+    display: flex;
+    gap: 0 40px;
+}
+
+.footer__contacts {
+    display: flex;
+}
+
+.footer-info__office {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-info__link {
+    display: flex;
+    gap: 0 10px;
+    font-style: normal;
+}
+
+.footer-info__social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0 20px;
+}
+
+.copyright {
+    width: 475px;
+    padding: 100px 0 18px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment {
+    display: flex;
+    gap: 0 20px;
 }
