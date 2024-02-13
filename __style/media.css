@@ -1,0 +1,134 @@
+@media(max-width: 1180px) {
+    .container {
+        width: 1000px;
+        padding: 0 !important;
+    }
+
+
+
+    .tea-list {
+        margin: 0 auto;
+        justify-content: center !important;
+        flex-wrap: wrap;
+    }
+
+    .review {
+        margin: 120px 0 !important;
+    }
+
+    .review-list {
+        padding: 60px 0 82px 0;
+        margin: 0 auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px 76px !important;
+    }
+
+    .blog {
+        margin: 120px auto !important;
+    }
+
+    .blog-list__card {
+        width: 470px !important;
+    }
+
+    .review-list__item:last-child {
+        display: none !important;
+    }
+
+    .container_flex {
+        justify-content: center;
+    }
+
+    .form {
+        padding: 60px 0;
+    }
+
+    .form-description {
+        width: 780px;
+        margin: 0 !important;
+
+        text-align: center;
+    }
+
+    .form-description__title {
+        text-align: center !important;
+    }
+
+    .prioritise-list {
+        justify-content: center !important;
+        gap: 31px 210px;
+    }
+
+    .prioritise-list__block {
+        width: 330px !important;
+    }
+
+    .footer-nav {
+        width: 300px !important;
+    }
+
+    .footer-info__quote-block {
+        padding: 0 !important;
+    }
+
+    .copyright {
+        width: 300px !important;
+    }
+}
+
+
+@media(max-width: 999px) {
+    .container {
+        width: 640px;
+    }
+
+    .nav {
+        margin: 0 64px;
+    }
+
+    .nav-list {
+        display: none !important;
+    }
+
+    .nav-list {
+        display: none !important;
+    }
+
+    .menu-button {
+        width: 40px;
+        height: 5px;
+        display: block !important;
+        background-color: #000;
+        position: relative;
+        cursor: pointer;
+        border: none;
+    }
+
+    .menu-button::after {
+        content: '';
+        width: 40px;
+        height: 5px;
+        display: inline-block;
+        background-color: #000;
+        position: absolute;
+        top: -10px;
+        left: 0;
+    }
+
+    .menu-button::before {
+        content: '';
+        width: 40px;
+        height: 5px;
+        display: inline-block;
+        background-color: #000;
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
+
+}
+
+/* .blog-list__card:nth-child(2n) {
+    margin-left: auto !important;
+} */
