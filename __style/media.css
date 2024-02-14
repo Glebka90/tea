@@ -1,7 +1,6 @@
-@media(max-width: 1180px) {
+@media(max-width: 1000px) {
     .container {
-        width: 1000px;
-        padding: 0 !important;
+        padding: 0 20px !important;
     }
 
 
@@ -28,8 +27,16 @@
         margin: 120px auto !important;
     }
 
+    .blog-list {
+        gap: 67px 20px !important;
+    }
+
     .blog-list__card {
-        width: 470px !important;
+        flex-basis: 460px !important;
+    }
+
+    .blog-list__image {
+        width: 230px;
     }
 
     .review-list__item:last-child {
@@ -131,4 +138,4 @@
 
 /* .blog-list__card:nth-child(2n) {
     margin-left: auto !important;
-} */
+}  */
