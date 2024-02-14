@@ -1,7 +1,7 @@
 @media(max-width: 1000px) {
 
 
- 
+
 
     .tea-list {
         margin: 0 auto;
@@ -86,21 +86,22 @@
 @media(max-width: 768px) {
 
     .header__inner {
-        width: 640px;
         padding: 0 64px;
     }
 
     .nav {
-        margin: 0;
-    
+        display: none !important;
+
     }
 
     .nav-list {
         display: none !important;
     }
-    .menu{
+
+    .menu {
         order: -1;
     }
+
     .menu-button {
         display: block !important;
         border: none;
@@ -116,11 +117,30 @@
         background-color: #000;
         cursor: pointer;
         border: none;
-    
+
+    }
+
+    .info__quote {
+        width: 640px !important;
+        font-size: 38px !important;
+    }
+
+    .info {
+        margin: 120px 0 !important;
     }
 
     .blog-list__card:nth-child(2n) {
         margin-left: auto !important;
+    }
+    .review-list__item:last-child {
+        display: block !important;
+    }
+    .form-description__text{
+        width: 640px;
+    }
+    .prioritise-list__block{
+        width: 250px !important;
+        gap:30px 133px !important;
     }
 }
 
