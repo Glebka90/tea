@@ -86,23 +86,21 @@
 @media(max-width: 768px) {
 
     .header__inner {
-        width: 640xp;
+        width: 640px;
         padding: 0 64px;
-
     }
 
     .nav {
         margin: 0;
+    
     }
 
     .nav-list {
         display: none !important;
     }
-
-    .nav-list {
-        display: none !important;
+    .menu{
+        order: -1;
     }
-
     .menu-button {
         display: block !important;
         border: none;
@@ -114,9 +112,11 @@
         width: 40px;
         height: 2px;
         margin: 6px 0;
+        display: block;
         background-color: #000;
         cursor: pointer;
         border: none;
+    
     }
 
     .blog-list__card:nth-child(2n) {
